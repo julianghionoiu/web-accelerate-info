@@ -1,0 +1,28 @@
+@media screen{
+
+  @media (max-width:991px ){
+
+    br{
+      display: none;
+    }
+  }
+
+
+  @media (max-width:767px ){
+
+    .desktop-visible{
+      display: none;
+    }
+
+    .Underline-h {
+      font-size: 24px;
+    }
+
+    .padd-default {
+      padding: 70px 0px;
+    }
+
+  }
+
+
+}

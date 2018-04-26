@@ -1,0 +1,124 @@
+$logo-blue-color: #06a9ec;
+$logo-dark-color: #4C5675;
+$logo-orange-color: #F87903;
+
+$primary-color: $logo-dark-color;
+$dark-color: #5f5f60;
+$bg-color: #f5f5f5;
+
+@import "generic";
+@import "custom-fonts";
+
+.displaynone {
+  display: none;
+}
+
+body {
+  background-color: $bg-color;
+}
+
+.icon-left{
+  float:left;
+  min-width: 80px;
+  margin: 10px 10px 120px 10px;
+  color: #fffdfb;
+}
+
+h2 {
+  font-family: 'Nunito-sm';
+  color: $dark-color;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-family: 'Nunito-sm';
+  color: $dark-color;
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+p {
+  font-family: 'Nunito-r';
+  color: $dark-color;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+q {
+  font-family: 'Nunito-r';
+  font-style: italic;
+  color: $dark-color;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+ul {
+  font-family: 'Nunito-r';
+  color: $dark-color;
+  font-size: 16px;
+  margin-bottom: 10px;
+  list-style-position: inside;
+}
+
+li {
+  font-family: 'Nunito-r';
+  color: $dark-color;
+  font-size: 16px;
+  line-height: 1.2em;
+  margin-bottom: 0px;
+}
+
+.home_header{
+  background-color: white;
+  margin-bottom: 30px;
+}
+
+.middle-content {
+  background-color: #f5f5f5;
+}
+
+.report-img-container {
+  width: 100%;
+}
+
+.report-img-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 3%;
+  margin-bottom: 20px;
+}
+
+.capture-section {
+  vertical-align: middle;
+}
+
+.capture-section .filler {
+  height: 10%;
+}
+
+.footer-content {
+  text-align: center;
+}
+
+.footer-content p {
+  font-size: 14px;
+}
+
+.footer-content q {
+  font-size: 16px;
+}
+
+
+footer {
+  background: white;
+  padding: 10px 0 15px;
+  color: $primary-color;
+
+  p {
+    font-size: 18px;
+  }
+}
+
+@import "MediaQuery";
